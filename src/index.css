@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Commissioner:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-primary-brightred rounded-full py-3 px-8  text-neutral-vpalered text-base capitalize
+}
+
+.divp {
+  @apply text-neutral-dgrayishblue text-lg font-light py-4
+}
+
+.divh2 {
+  @apply text-primary-darblue text-lg font-bold
+}
+
+.box{
+  @apply relative bg-gray-100 text-neutral-dgrayishblue px-8 py-12 flex flex-col justify-center items-center text-center font-bold
+}
+
+.boxh {
+  @apply text-primary-darblue text-xl
+}
+
+.boxp {
+  @apply text-neutral-dgrayishblue text-lg pt-5
+}
+
+.bta {
+  @apply text-primary-brightred rounded-full py-3 px-8  bg-neutral-vlightgray text-base capitalize
+}
+
+.input {
+  @apply text-neutral-vdarkblue rounded-full py-3 px-4 text-base capitalize
+}
